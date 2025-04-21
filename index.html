@@ -1045,15 +1045,7 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="video-section">
-          <h3 class="h3 form-title">Who Am I</h3>
-          <div class="video-container">
-            <video controls>
-              <source src="./assets/videos/intro.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </section>
+      
 
         <section class="contact-form">
 
@@ -1065,9 +1057,13 @@
               <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <input type="number" name="Phone" class="form-input" placeholder="Phone Number" required data-form-input>
+
+              <input type="text" name="Subject" class="form-input" placeholder="Subject" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input 
+            style="min-height: 150px; height: 180px; max-height: 300px;"></textarea>
 
             <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
